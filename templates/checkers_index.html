@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Checkers Game</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           max-width: 800px;
+           margin: 0 auto;
+           padding: 20px;
+           text-align: center;
+           background-color: #f5f5f5;
+       }
+
+       .container {
+           background-color: white;
+           padding: 40px;
+           border-radius: 8px;
+           box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+       }
+       h1 {
+           color: #333;
+           margin-bottom: 30px;
+       }
+       button {
+           padding: 15px 30px;
+           font-size: 1.2em;
+           border: none;
+           border-radius: 5px;
+           background-color: #4CAF50;
+           color: white;
+           cursor: pointer;
+           transition: background-color 0.2s;
+       }
+       button:hover {
+           background-color: #45a049;
+       }
+   </style>
+</head>
+<body>
+   <div class="container">
+       <h1>Welcome to Checkers</h1>
+       <form action="{{ url_for('new_game') }}" method="post">
+           <button type="submit">Start New Game</button>
+       </form>
+   </div>
+</body>
+</html>
