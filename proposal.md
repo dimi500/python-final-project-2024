@@ -1,9 +1,12 @@
-Maze Game
-Maze where the player navigates through different rooms to reach an exit.
-1- Maze Structure: A grid with paths and walls. The player starts at one point and must reach the exit.
-2- Player Movement: Move through the maze using simple commands while avoiding invalid moves.
-3- Ojective: Find the exit of the maze to win the game.
-4- Challenges: Include traps, locked doors, or items to collect for added difficulty.
-5- Display: Show the maze, player position, and exit using text symbols.
+Checkers
+This project is to make a digital version of the checkers game using Python. Two players will be able to play against each other, moving pieces on a virtual board and following the usual checkers rules. The main goals are to make the game easy to play, ensure all moves are valid.
 
-Technologies: Lists, dictionaries, user input, loops.
+1- An interactive 8x8 board where players can click to select and move pieces.
+
+2- Game rules that include capturing opponents' pieces and "kinging" pieces that reach the other side.
+
+3- The game ends when one player has no pieces left or can't make a valid move.
+
+
+
+Technologies: pycharm, python, html files, css, flask, loops, dictionarries
